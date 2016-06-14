@@ -1,8 +1,6 @@
 #include <stdio.h>
 
 #include "GameManager.h"
-
-// git hub test
 void main()
 {
 	int choice = 0;
