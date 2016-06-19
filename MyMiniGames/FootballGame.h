@@ -3,6 +3,7 @@
 #include "Resources.h"
 #include <time.h>
 #include "FootballScreen.h"
+
 class Stage;
 class GoalPost;
 class Player;
@@ -13,7 +14,7 @@ using namespace FOOTBALLGAME;
 class FootballGame	: public Game
 {
 private:
-	Stage * m_pStage;
+	Stage* m_pStage;
 
 	FootballScreen m_pScreen;
 	GAME_STATE m_eGameState;
